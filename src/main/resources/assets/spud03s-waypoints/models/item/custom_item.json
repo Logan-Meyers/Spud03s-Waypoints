@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "spud03s-waypoints:item/custom_item"
+  }
+}

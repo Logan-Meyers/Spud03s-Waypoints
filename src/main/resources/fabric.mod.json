@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "spud03s-waypoints",
+	"version": "${version}",
+	"name": "Spud03's Waypoints",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Logan Meyers (TheTerrarian03) (nicknamed Spud03)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/spud03s-waypoints/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"spud03.waypoints.Spud03sWaypoints"
+		],
+		"client": [
+			"spud03.waypoints.Spud03sWaypointsClient"
+		],
+		"fabric-datagen": [
+			"spud03.waypoints.Spud03sWaypointsDataGenerator"
+		]
+	},
+	"mixins": [
+		"spud03s-waypoints.mixins.json",
+		{
+			"config": "spud03s-waypoints.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
