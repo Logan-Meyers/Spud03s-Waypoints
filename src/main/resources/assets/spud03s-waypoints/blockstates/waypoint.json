@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "spud03s-waypoints:block/waypoint"
+    }
+  }
+}

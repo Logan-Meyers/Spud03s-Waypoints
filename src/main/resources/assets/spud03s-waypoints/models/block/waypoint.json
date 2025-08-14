@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spud03s-waypoints:block/waypoint"
+  }
+}

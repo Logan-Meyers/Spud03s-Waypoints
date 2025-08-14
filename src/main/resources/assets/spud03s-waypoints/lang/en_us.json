@@ -1,3 +1,6 @@
 {
-  "item.spud03s-waypoints.custom_item": "Custom Item"
+  "item.spud03s-waypoints.custom_item": "Custom Item",
+  "item.spud03s-waypoints.waypoint": "Waypoint",
+
+  "block.spud03s-waypoints.waypoint": "Waypoint"
 }

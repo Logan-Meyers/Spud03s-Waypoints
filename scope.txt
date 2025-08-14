@@ -1,0 +1,6 @@
+somehow to see what waypoints exist
+possibly use ruined portals to create
+block of lapis as currency
+singular home portal with list of locations
+name & description about waypoint
+only see what waypoints exist through home portal

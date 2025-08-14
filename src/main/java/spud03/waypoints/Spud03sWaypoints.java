@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import spud03.waypoints.block.ModBlocks;
 import spud03.waypoints.item.ModItems;
 
 public class Spud03sWaypoints implements ModInitializer {
@@ -17,6 +18,6 @@ public class Spud03sWaypoints implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();  // register mod items on initialization of game
-
+        ModBlocks.registerModBlocks();  // register mod blocks on initialization of game
 	}
 }
