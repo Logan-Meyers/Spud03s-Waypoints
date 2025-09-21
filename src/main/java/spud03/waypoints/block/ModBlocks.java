@@ -19,7 +19,7 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block WAYPOINT = register(
             "waypoint",
-            Block::new,
+            WaypointBlock::new,
             AbstractBlock.Settings.create().sounds(BlockSoundGroup.METAL).strength(4f).requiresTool(),
             true
     );
